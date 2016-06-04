@@ -20,8 +20,8 @@ public class RadarView extends View {
     private Paint mPaint;
     private int mHeight;
     private int mWidth;
-    private  int distance = 200;//坐标与0点的距离
-    private int rectFNumber = 8;
+    private  int distance = 400;//坐标与0点的距离
+    private int rectFNumber = 6;
     ArrayList<Point> pointList = new ArrayList<>();
 
     public RadarView(Context context) {
